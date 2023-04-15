@@ -3,6 +3,7 @@ import React from 'react';
 import {Home} from './componets/Home.js';
 import { Reasons } from './componets/Reasons';
 import { Articles } from './componets/Articles';
+import { Footer } from './componets/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home/>
       <Reasons/>
       <Articles/>
+      <Footer/>
     </>
   );
 }
