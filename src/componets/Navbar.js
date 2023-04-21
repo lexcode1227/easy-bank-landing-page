@@ -8,11 +8,11 @@ const Navbar = () => {
             <img src={Logo} alt='Logo de la empresa'/>
         </div>
         <ul className='navbar__links'>
-            <li ><a href='#Home'>Home</a></li>
-            <li ><a href='#Home'>About</a></li>
-            <li ><a href='#Home'>Contact</a></li>
-            <li ><a href='#Articles'>Blog</a></li>
-            <li ><a href='#Home'>Careers</a></li>
+            <li ><a href='#Home' className='underline'>Home</a></li>
+            <li ><a href='#Home' className='underline'>About</a></li>
+            <li ><a href='#Home' className='underline'>Contact</a></li>
+            <li ><a href='#Articles' className='underline'>Blog</a></li>
+            <li ><a href='#Home' className='underline'>Careers</a></li>
         </ul>
         <div className='navbar__btn'>
           <button className='btn'>Request Invite</button>
